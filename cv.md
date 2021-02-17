@@ -120,6 +120,7 @@ document.addEventListener('DOMContentLoaded', pageLoaded);
 English: Intermediate level.
 I worked as a English teacher for very beginners and for kids at Nova School of English. (2015)
 I get a diploma "Translator in professional communication" from SSTU university.(2015)
+I'm very interested in improving my English.
 
 ```
 
