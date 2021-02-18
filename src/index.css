@@ -1,0 +1,133 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*Body starts*/
+body {
+     font-family: 'Nanum Gothic', sans-serif;
+     color: #3f3f44;
+
+ }
+
+.header {
+    background-color: #2451af;
+}
+.wrapper {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+
+div .header__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__position {
+    font-size: 42px;
+    text-align: center;
+    font-weight: bold;
+    color: #fdfdfd;
+}
+h2 {
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+    color: #fdfdfd;
+
+}
+.header__photo {
+    max-width: 150px;
+    border: 3px solid #b6b3b3;
+    border-radius: 3px;
+}
+
+.main {
+    background-color: #b6b3b3;
+}
+.main__container {
+    margin: 0 auto;
+    width: 1000px;
+    color: #fdfdfd;
+}
+.main__about-me {
+    width: 500px;
+}
+.aside {
+    background-color: #6e89c3;
+}
+.aside__container {
+    width: 100%;
+    margin: 0 auto;
+}
+h3 {
+    font-size: 26px;
+    text-align: center;
+    font-weight: bold;
+    color: #fdfdfd;
+}
+div .aside__info {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.aside__item {
+    list-style-type: none;
+}
+div .aside__skills {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+
