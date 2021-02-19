@@ -50,6 +50,12 @@ table {
     border-spacing: 0;
 }
 
+html {
+    box-sixing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
 /*Body starts*/
 body {
     font-family: 'Nanum Gothic', sans-serif;
@@ -58,97 +64,319 @@ body {
 
 .header {
     background-color: #2451af;
+    width: 1440px;
 }
 .wrapper {
     margin: 0 auto;
-    width: 1200px;
+    width: 1400px;
 }
 
 
 div .header__container {
+    width: 1200px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+.header__info {
+    display: flex;
+    flex-flow: column wrap;
 
+
+}
 .header__position {
-    font-size: 42px;
+    margin-top: 50px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 48px;
     text-align: center;
     font-weight: bold;
     color: #fdfdfd;
+
 }
 h2 {
-    font-size: 35px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 40px;
     text-align: center;
     font-weight: bold;
     color: #fdfdfd;
+    margin-top: 20px;
 
 }
 .header__photo {
-    max-width: 150px;
+    max-width: 245px;
     border: 3px solid #b6b3b3;
     border-radius: 3px;
+    float: left;
+    position: absolute;
+    top: 10px;
+    left: 150px;
+    z-index: 2;
 }
+
+
 
 .main {
     background-color: #b6b3b3;
+    width: 1440px;
+    position: relative;
+    margin-bottom: -100px;
+
 }
 .main__container {
-    margin: 0 auto;
-    width: 1000px;
+    width: 1200px;
     color: #fdfdfd;
+    display: flex;
+    flex-flow: row wrap;
+    //justify-content: center;
+    //position: relative;
+
+
+
 }
-.main__about-me {
-    width: 500px;
+.main_information {
+    margin-top: 90px;
+    position: relative;
 }
-.main__code {
-    width: 400px;
-}
-.main__education{
-    width: 400px;
-}
-.main__lang {
-    width: 500px;
-}
-p {
-    font-size: 23px;
-    text-align: center;
+
+.main__info {
+    position: absolute;
+    top: 0;
+    left: 450px;
+    font-size: 24px;
     font-weight: normal;
     color: #fdfdfd;
+    margin-top: -60px;
+    text-decoration: underline;
+
+}
+
+.main__about-me {
+    position: relative;
+    top: 10px;
+    left: 450px;
+    width: 900px;
+    margin-top: -30px;
+    line-height: 1.3;
+    font-size: 18px;
+    font-weight: normal;
+    color: #fdfdfd;
+
+}
+.main__projects {
+    position: relative;
+    top: 0;
+    left: 450px;
+    margin-top: -20px;
+    width: 900px;
+}
+.article__proj {
+    padding-bottom: 20px;
+    padding-top: 50px;
+    font-size: 24px;
+    font-weight: normal;
+    color: #fdfdfd;
+    text-decoration: underline;
+
+}
+.article__item {
+    //width: 400px;
+    color: #fdfdfd;
+    font-size: 16px;
+    list-style-type: circle;
+    padding-bottom: 3px;
+}
+ li .article__link {
+     text-decoration: none;
+     color: #fdfdfd;
+     font-size: 16px;
+     padding-bottom: 3px;
+     list-style-type: none;
+     line-height: 1.3;
+     cursor: pointer;
+ }
+     .article__link:hover {
+         color: #2451af;
+         transition: ease-in-out;
+     }
+
+.main_work {
+    width: 900px;
+    position: relative;
+    top: 20px;
+    left: 450px;
+    margin-top: -20px;
+}
+.article__work {
+    padding-bottom: 20px;
+    padding-top: 30px;
+    font-size: 24px;
+    font-weight: normal;
+    color: #fdfdfd;
+    text-decoration: underline;
+}
+.article__school {
+    //width: 400px;
+    color: #fdfdfd;
+    font-size: 16px;
+    list-style-type: circle;
+    padding-bottom: 3px;
+    line-height: 1.3;
+}
+
+.main__education{
+    //margin-top: 50px;
+
+
+}
+.main__school {
+    position: relative;
+    top: 20px;
+    left: 450px;
+    //margin-top: -20px;
+    width: 900px;
+}
+.article__education {
+    padding-bottom: 20px;
+    padding-top: 30px;
+    font-size: 24px;
+    font-weight: normal;
+    color: #fdfdfd;
+    text-decoration: underline;
+
+}
+.main__item {
+    width: 600px;
+    color: #fdfdfd;
+    font-size: 16px;
+    list-style-type: circle;
+    padding-bottom: 3px;
+    line-height: 1.3;
+}
+.main__lang {
+    position: relative;
+    top: 20px;
+    left: 450px;
+    //margin-top: 20px;
+    width: 800px;
+
+
+}
+
+.main_language {
+    padding-bottom: 20px;
+    padding-top: 30px;
+    font-size: 24px;
+    font-weight: normal;
+    color: #fdfdfd;
+    text-decoration: underline;
+
+}
+
+.main__english {
+    font-weight: normal;
+    color: #fdfdfd;
+    font-size: 16px;
+    line-height: 1.3;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 .aside {
     background-color: #6e89c3;
+    position: absolute;
+    top: 157px;
+    left: 0;
+
+
 }
 .aside__container {
-    width: 100%;
+    width: 400px;
     margin: 0 auto;
 }
-h2,
-h3 {
-    font-size: 26px;
+
+.aside__info {
+    margin-top: 250px;
+    margin-left: 20px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    padding-top: 0;
+    padding-left: 50px;
+
+}
+.aside__content {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 32px;
     text-align: center;
     font-weight: bold;
     color: #fdfdfd;
-}
-div .aside__info {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
+    text-decoration: underline;
+    padding-left: 45px;
 }
 
-.aside__item {
+.aside__mobile-link {
+    margin-top: 30px;
     list-style-type: none;
+    margin-left: 70px;
 }
+.aside__email-link {
+    margin-top: 30px;
+    list-style-type: none;
+    margin-left: 70px;
+}
+
 .aside__phone,
 .aside__email {
-    width: 50px;
+    width: 30px;
 }
-div .aside__skills {
+ .aside__skills {
+    margin-top: 80px;
+    margin-left: 0;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
-}
+    align-items: center;
+     padding-left: 70px;
+     margin-bottom: 112px;
+     padding-bottom: 20px;
 
+}
+.aside__skill {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+    color: #fdfdfd;
+    text-decoration: underline;
+}
+.aside__item {
+    font-family: 'Nanum Gothic', sans-serif;
+    list-style-type: circle;
+    font-size: 14px;
+    padding-top: 15px;
+
+}
 .footer {
     background-color: #3f3f44;
+    width: 1440px;
+    //height: 151px;
+
+}
+.footer__container {
+    width: 1440px;
+    margin-top: 100px;
+}
+.footer__icon {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+.footer__list {
+    
+}
+.footer__github {
+    width: 40px;
+}
+.footer__school {
+    width: 40px;
 }
