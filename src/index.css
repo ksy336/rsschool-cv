@@ -358,7 +358,7 @@ h2 {
 .footer {
     background-color: #3f3f44;
     width: 1440px;
-    //height: 151px;
+    height: 100px;
 
 }
 .footer__container {
@@ -366,17 +366,30 @@ h2 {
     margin-top: 100px;
 }
 .footer__icon {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: flex-end;
-    align-items: center;
+
 }
 .footer__list {
-    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding-top: 30px;
 }
+.footer__list a:hover {
+    color: white;
+    border-color: transparent;
+    transition: 1s;
+    opacity: .75;
+}
+
 .footer__github {
     width: 40px;
+    margin-right: 50px;
+
 }
+
 .footer__school {
-    width: 40px;
+    width: 50px;
+    margin-right: 50px;
 }
