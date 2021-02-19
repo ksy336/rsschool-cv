@@ -52,9 +52,8 @@ table {
 
 /*Body starts*/
 body {
-     font-family: 'Nanum Gothic', sans-serif;
-     color: #3f3f44;
-
+    font-family: 'Nanum Gothic', sans-serif;
+    color: #fdfdfd;
  }
 
 .header {
@@ -102,6 +101,21 @@ h2 {
 .main__about-me {
     width: 500px;
 }
+.main__code {
+    width: 400px;
+}
+.main__education{
+    width: 400px;
+}
+.main__lang {
+    width: 500px;
+}
+p {
+    font-size: 23px;
+    text-align: center;
+    font-weight: normal;
+    color: #fdfdfd;
+}
 .aside {
     background-color: #6e89c3;
 }
@@ -125,10 +139,16 @@ div .aside__info {
 .aside__item {
     list-style-type: none;
 }
+.aside__phone,
+.aside__email {
+    width: 50px;
+}
 div .aside__skills {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
 }
 
-
+.footer {
+    background-color: #3f3f44;
+}
