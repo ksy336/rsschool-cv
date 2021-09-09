@@ -21,10 +21,7 @@
 * I'm very interested in front-end. 
 * I'm keen on creating sites. 
 
-``Also I'm very interested in learning new knowledge.
- Education for me is a new opportunity 
- to get more qualified developer and to get more expierince.
-  I'm not afraid of some troubles in my work becase they help me to know much more about web-development. I'm  good at hard-working, I'm team-player  and I'm disciplined so it helps me to do projects on time.``
+``Also I'm very interested in learning new knowledge. Education for me is a new opportunity to get more qualified developer and to get more expierince. I'm not afraid of some troubles in my work becase they help me to know much more about web-development. I'm  good at hard-working, I'm team-player  and I'm disciplined so it helps me to do projects on time.``
 
 
 - - -
